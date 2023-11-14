@@ -38,7 +38,7 @@ main {
 }
 
 .write-btn {
-  background-color: #fe6f0f;
+  background-color:var(--button-primary);
   position: fixed;
   bottom: 120px;
   right: 20px;
@@ -47,7 +47,13 @@ main {
   color: white;
   padding: 10px 15px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 5px;
+  cursor:pointer
+  transition: all 0.2 ease-in-out
 }
+
+.write-btn:hover{
+  background-color: var(--button-hover)}
+
 
 .media-info-msg {
   opacity: 1;
