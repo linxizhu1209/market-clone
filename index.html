@@ -95,6 +95,13 @@
                 <div class="items-list__info-price">1000원</div>
             </div>
         </div>
+        <div id="messageWin" style="display: none;">
+        <ul id="message-ul">
+        </ul>
+      </div>
+        <input type="text" id="message-input" style="display: none;" placeholder="메시지를 입력해주세요" />
+      
+  
         <div class="write-btn">+글쓰기</div>
     </main>
     <footer>
@@ -111,7 +118,7 @@
           <div class="footer-icons__img"><img src="./assets/location.svg" alt="location" /></div>
           <div class="footer-icons__des">내 근처</div>
         </div>
-        <div class="footer-icons">
+        <div class="footer-icons" id="messenger">
           <div class="footer-icons__img"><img src="./assets/message.svg" alt="message" /></div>
           <div class="footer-icons__des">채팅</div>
         </div>
@@ -120,5 +127,6 @@
         <div class="footer-icons__des">나의 당근</div>
     </div>
     </footer>
+    <script src="./javascript/messenger.js"></script>
   </body>
 </html>

@@ -1,5 +1,6 @@
 main {
   padding: 30px 20px;
+  position: relative;
 }
 
 .items-list {
@@ -38,7 +39,7 @@ main {
 }
 
 .write-btn {
-  background-color:var(--button-primary);
+  background-color: var(--button-primary);
   position: fixed;
   bottom: 120px;
   right: 20px;
@@ -47,13 +48,13 @@ main {
   color: white;
   padding: 10px 15px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 5px;
-  cursor:pointer
-  transition: all 0.2 ease-in-out
+  cursor: pointer;
+  transition: all 0.2 ease-in-out;
 }
 
-.write-btn:hover{
-  background-color: var(--button-hover)}
-
+.write-btn:hover {
+  background-color: var(--button-hover);
+}
 
 .media-info-msg {
   opacity: 1;
@@ -70,4 +71,29 @@ main {
   .media-info-msg {
     display: none;
   }
+}
+
+#messageWin {
+  width: 300px;
+  height: 400px;
+  background-color: rgb(14, 94, 94);
+  color: black;
+  position: fixed;
+  top: 150px;
+}
+
+/* #message-ul {
+  display: flex;
+  position: absolute;
+  top: 1px;
+} */
+
+#message-input {
+  position: fixed;
+  width: 300px;
+  height: 40px;
+  margin-top: 200px;
+  top: 300px;
+
+  border: 1px solid black;
 }
